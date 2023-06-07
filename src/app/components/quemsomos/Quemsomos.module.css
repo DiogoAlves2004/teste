@@ -58,12 +58,15 @@
   z-index: 0;
   height: 70vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 .BgContianer div {
   position: unset !important;
+  overflow-x: hidden;
 }
 
 .BgContianer .image {
+  overflow-x: hidden;
   height: 100% !important;
   position: absolute !important;
 }
