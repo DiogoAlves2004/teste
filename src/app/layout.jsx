@@ -12,12 +12,13 @@ export default function RootLayout({ children }) {
       
 
       <noscript>
+      
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-5HDGPBQ"
             height="0"
             width="0"
           ></iframe>
-        </noscript>
+      </noscript>
 
       {children}
       
