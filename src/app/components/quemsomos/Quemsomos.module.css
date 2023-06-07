@@ -96,6 +96,11 @@
     height: 200px;
   }
 
+  .BgContianer .image {
+    width: auto !important;
+    position: absolute !important;
+  }
+
   .lowerContent .lowerTextContent {
     margin-top: 25%;
   }
