@@ -1,4 +1,9 @@
+'use clint'
+import { Suspense } from 'react'
+import Analytics from './Analytics'
 import './globals.css'
+
+
 
 export default function RootLayout({ children }) {
   return (
@@ -12,7 +17,7 @@ export default function RootLayout({ children }) {
       
 
       <noscript>
-      
+
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-5HDGPBQ"
             height="0"
